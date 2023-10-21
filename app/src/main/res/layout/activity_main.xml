@@ -9,9 +9,10 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/edit_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/distancia" />
+        android:hint="@string/distance" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,51 +21,55 @@
         android:text="@string/total_km" />
 
     <EditText
+        android:id="@+id/edit_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/preco" />
+        android:hint="@string/price" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/preco_por_litro" />
+        android:text="@string/price_per_liter" />
 
     <EditText
+        android:id="@+id/edit_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/autonomia" />
+        android:hint="@string/autonomy" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/kms_por_litro" />
+        android:text="@string/kms_per_liter" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40sp"
-        android:text="@string/gasto_total"
+        android:text="@string/total_spend"
         android:textAllCaps="true"
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/text_total_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginVertical="20dp"
-        android:text="@string/valor_total"
+        android:text="@string/total_value"
         android:textColor="@color/purple_700"
         android:textSize="40sp" />
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:backgroundTint="@color/teal_200"
-        android:text="@string/btn_calcular"
+        android:text="@string/calculate"
         android:textAllCaps="true"
         android:textSize="20sp"
         app:cornerRadius="0dp" />
